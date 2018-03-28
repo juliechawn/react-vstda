@@ -1,0 +1,30 @@
+
+
+#task{
+    margin: auto;
+    display: flex;
+}
+
+.form-check-input{
+    position: absolute;
+    left: 5%;
+}
+
+input[type=checkbox]:checked + text { 
+    text-decoration: line-through;
+}
+
+.text-alert{
+    position: relative;
+    left: 5%;
+}
+
+.edit-todo {
+    position: absolute;
+    right: 7%;
+}
+
+.delete-todo {
+    position: absolute;
+    right: 3%;
+}
