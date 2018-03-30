@@ -32,7 +32,8 @@ strong + small {
     display: block;
 }
 
-input[type=checkbox] {
+input[type=checkbox]:checked + text {
+  text-decoration: line-through;
   margin-right: 1em;
 }
 
@@ -42,12 +43,4 @@ div.pull-right a {
 
 hr {
   background-color: white;
-}
-
-body {
-  background-color: black;
-}
-
-.icon {
-  align-items: right;
 }
